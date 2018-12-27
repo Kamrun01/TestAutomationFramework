@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AutomationFramework>
+  <RunSettings>
+    <AUT>https://login.salesforce.com/</AUT>
+    <!-- Possible flag Chrome,Firefox, IE-->
+    <Browser>Chrome</Browser>
+    <!-- Possible flag Smoke, Regression, Unit -->
+    <TestType>SmokeTest</TestType>
+    <!-- Possible Flag Y, N -->
+    <IsLog>Y</IsLog>
+    <LogPath>E:\Document\C#_Code\TestAutomationProject\SalesforceTest\LogFile\</LogPath>
+    <ReportPath>E:\Document\C#_Code\TestAutomationProject\SalesforceTest\ExtentReport\ExtentReport.html</ReportPath>
+    <ReportConfigPath>E:\Document\C#_Code\TestAutomationProject\SalesforceTest\bin\Debug\extent-config.xml</ReportConfigPath>
+    <ScreenShotPath>E:\Document\C#_Code\TestAutomationProject\SalesforceTest\Screenshot\</ScreenShotPath>
+    <BuildName>DemoBuild</BuildName>
+    <TimeOut>3000</TimeOut>
+    <!-- Possible Flag Y, N -->
+    <IsReport>Y</IsReport>
+    <UserName>Raz</UserName>
+    <!-- Possible flag Selenium, Specflow -->
+    <Technology>Selenium</Technology>
+  </RunSettings>
+</AutomationFramework>
